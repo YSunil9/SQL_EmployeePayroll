@@ -1,0 +1,2 @@
+create database EmpPayrollService
+use EmpPayrollService
