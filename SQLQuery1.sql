@@ -12,3 +12,5 @@ Insert into PayrollTable (Name, Salary, StartDate) values
 ('Virat', 40000.00, '2021-06-26'),
 ('Ashwin',50000.00, '2021-06-09'),
 ('Jadeja',30000.00, '2021-03-05');
+
+Select * from PayrollTable
