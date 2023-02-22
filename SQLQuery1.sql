@@ -27,7 +27,20 @@ update PayrollTable set Gender = 'F' where Id in (5);
 
 Select * from PayrollTable
 
+Alter Table PayrollTable
+Alter Column Salary int
 
+Select SUM(Salary) From  PayrollTable Where Gender='M' Group by Gender
+
+Select SUM(Salary) From  PayrollTable Where Gender='F' Group by Gender
+
+Select AVG(Salary) From  PayrollTable Where Gender='M' Group by Gender
+
+Select AVG(Salary) From  PayrollTable Where Gender='F' Group by Gender
+
+Select MIN(Salary) From  PayrollTable Where Gender='M' Group by Gender
+
+Select MIN(Salary) From  PayrollTable Where Gender='F' Group by Gender
 
 
 
